@@ -1,0 +1,278 @@
+/** NAVBAR **/
+
+.navbar-custom {
+  background-color: rgba(23, 23, 23, 0.786) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-link {
+  font-family: "Raleway", serif;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+.actioncolor:hover {
+  background-color: rgb(124, 17, 17);
+}
+
+.horrorcolor:hover {
+  background-color: rgb(255, 165, 0);
+}
+
+.comediecolor:hover {
+  background-color: yellow;
+  color: black !important;
+}
+
+.scificolor:hover {
+  background-color: #02ec8e;
+  color: black !important;
+}
+
+.dramacolor:hover {
+  background-color: rgb(70, 159, 14);
+}
+
+.romancecolor:hover {
+  background-color: rgb(39, 76, 200);
+}
+
+/** BOUTON CONNEXION **/
+.btncnx {
+  font-family: "Raleway", serif;
+  background-color: white;
+  border-width: 5px;
+  border-color: #818b8a;
+  color: #818b8a;
+  font-weight: 700;
+}
+
+.btncnx:hover {
+  background-color: #606b6a;
+  border-color: #606b6a;
+}
+
+/** FIN BOUTON CONNEXION ***/
+@media (max-width: 992px) {
+  .trait {
+    display: none;
+  }
+  .btncnx {
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+}
+/* Charte graphique - Nuances de bleu */
+:root {
+  /* Couleurs principales */
+  --blue-primary: #1e3a8a; /* Bleu principal */
+  --blue-light: #3b82f6; /* Bleu clair */
+  --blue-dark: #1e40af; /* Bleu foncé */
+
+  /* Couleurs secondaires */
+  --blue-secondary: #60a5fa; /* Bleu pastel */
+  --blue-accent: #93c5fd; /* Bleu accentué */
+
+  /* Variantes neutres */
+  --blue-muted: #bfdbfe; /* Bleu atténué */
+  --blue-bg: #eff6ff; /* Bleu très clair pour les arrière-plans */
+
+  /* Couleurs d'état */
+  --blue-hover: #2563eb; /* Bleu survol */
+  --blue-active: #9ca3af; /* Bleu actif */
+  --blue-disabled: #9ca3af; /* Bleu désactivé (gris-bleu) */
+}
+
+/* Exemple d'utilisation */
+body {
+  background-color: var(--blue-bg);
+  color: var(--neutral-dark);
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #000000;
+}
+
+h2,
+h3 {
+  color: var(--blue-primary);
+}
+
+#bannière {
+  position: relative;
+}
+#titre {
+  position: absolute;
+  bottom: 50%;
+  color: rgb(0, 0, 0);
+  left: 10%;
+  right: 20%;
+  margin-top: 10%;
+}
+h1 h2 h3 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h2 {
+  margin-top: 5%;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #000000;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background: linear-gradient(
+    to bottom,
+    #818b8a 10%,
+    #818b8a 0%,
+    var(--blue-bg) 100%
+  );
+}
+.btn-secondary {
+  background-color: #9ca3af;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 3%;
+}
+.btn-secondary:hover {
+  background-color: #2563eb;
+}
+#col1 {
+  background-color: white;
+  color: #1e4077;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+#col1 img {
+  width: 20%;
+}
+#col1 p {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#col2 {
+  background-color: white;
+  color: #1e4077;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+#col2 img {
+  width: 20%;
+}
+
+#col2 p {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#col3 {
+  background-color: white;
+  color: #1e4077;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+#col3 img {
+  width: 20%;
+}
+#col3 p {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.text {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+.text img {
+  width: 4%;
+  margin-right: 1%;
+}
+
+.container {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+#col5 img {
+  border-radius: 10%;
+}
+#col6 img {
+  border-radius: 10%;
+}
+#col4 img {
+  border-radius: 10%;
+}
+#col5 img {
+  height: 81%;
+}
+
+.col7 {
+  background-color: #9ca3af;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+.abo {
+  background-color: white;
+  color: #1e4077;
+  text-align: center;
+  padding-top: 2%;
+  border-radius: 20px;
+  margin-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 10%;
+}
+#genre {
+  margin-top: 3%;
+}
+.abo2 {
+  margin-top: -5%;
+}
+.btnj {
+  margin-top: 7%;
+}
+.livre{
+  width: 50%;
+  height: 70%;
+  
+}

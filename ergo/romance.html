@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciné flix-Romance</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="romance.css" />
+
+    <style>
+      .film {
+        transition: transform 0.3s ease-in-out;
+      }
+      .film:hover {
+        transform: translateY(-20px);
+      }
+    </style>
+  </head>
+  <body>
+    <div data-aos="fade-up">
+      <!------------------------------------------------------------- NAVBAR --------------------------------------------------------------------------------------------->
+      <nav
+        class="navbar bg-dark navbar-expand-lg bg-body-tertiary navbar-custom"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Bootstrap" width="auto" height="50" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Accueil
+                </a>
+              </li>
+              <li
+                class="nav-link disabled trait"
+                aria-disabled="true"
+                style="color: white">
+                |
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active actioncolor"
+                  aria-current="page"
+                  href="action.html"
+                  >Action</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active horrorcolor"
+                  aria-current="page"
+                  href="#"
+                  >Horreur</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active comediecolor"
+                  aria-current="page"
+                  href="#"
+                  >Comédie</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active scificolor"
+                  aria-current="page"
+                  href="#"
+                  >Science-Fiction</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active dramacolor"
+                  aria-current="page"
+                  href="#"
+                  >Drama</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active romancecolor"
+                  aria-current="page"
+                  href="romance.html"
+                  >Romance</a
+                >
+              </li>
+            </ul>
+            <button class="btn btn-outline-dark btncnx" type="button">
+              Connexion
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!------------------------------NAVBAR-------------------------------------------->
+      <!----------------------------début hero----------------------------------------->
+      <div id="bannière">
+        <div class="image-container">
+          <img
+            class="image-container"
+            src="img/love_.jpg"
+            alt="bannière-de-film" />
+        </div>
+        <div id="titre">
+          <h1>Cœurs en Scène</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad sed
+            voluptatem quis iste, officiis voluptas, laboriosam consequuntur
+            quisquam delectus error sequi soluta? Dolorum soluta eaque nobis et
+            reprehenderit officiis magnam?
+          </p>
+          <button type="button" class="btn btn-secondary btn-lg">
+            Je m'abonne
+          </button>
+        </div>
+      </div>
+      <div id="tout">
+        <!---------------------fin hero---------------------------------------------->
+        <!---------------------------debut avantage----------------------------------->
+        <p class="text">
+          <img src="img/camescope.png" alt="camera" />
+          Découvrez les dernières nouveautés sans interruption publicitaire, le
+          tout avec une qualité d'image exceptionnelle en HD et 4K. Une
+          immersion totale pour des moments de cinéma uniques, directement
+          depuis chez vous !
+        </p>
+        <div class="container">
+          <div class="row">
+            <div id="col1" class="col">
+              <img src="img/infini.png" alt="infini" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio facere iure et, excepturi ducimus repellat? Facilis
+                quibusdam culpa quod quia repellendus magni, veniam esse neque,
+                a voluptatum illo tempore ut.
+              </p>
+            </div>
+            <div id="col2" class="col">
+              <img src="img/mettre-a-jour.png" alt="infini" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio facere iure et, excepturi ducimus repellat? Facilis
+                quibusdam culpa quod quia repellendus magni, veniam esse neque,
+                a voluptatum illo tempore ut.
+              </p>
+            </div>
+            <div id="col3" class="col">
+              <img src="img/pub.png" alt="infini" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Distinctio facere iure et, excepturi ducimus repellat? Facilis
+                quibusdam culpa quod quia repellendus magni, veniam esse neque,
+                a voluptatum illo tempore ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------fin avantage-------------------------------->
+        <!------------------------------------debut catalogue------------------------------>
+        <h2>Film en Vedette</h2>
+
+        <div class="container">
+          <div class="row">
+            <div id="col4" class="col-3 film">
+              <h3>Amour ouf</h3>
+              <img src="img/amour ouf.webp" alt="amour-ouf" />
+            </div>
+            <div id="col5" class="col-3 film">
+              <h3>Your name</h3>
+              <img src="img/yourname.webp" alt="amour-ouf" />
+            </div>
+            <div id="col6" class="col-3 film">
+              <h3>Nos étoiles Contraire</h3>
+              <img src="img/etoile.jpeg" alt="amour-ouf" />
+            </div>
+            <div id="col6" class="col-3 film">
+              <h3>Nos étoiles Contraire</h3>
+              <img src="img/enten.jpg" alt="amour-ouf" />
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------------------fin catalogue----------------------------->
+        <!------------------------------debut abonnement------------------------------------>
+        <h2>Nos abonnement</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col col7">
+              <h3>Essentiel</h3>
+              <p>Accès limité au catalogue, qualité HD.</p>
+              <p>€7.99 / Mois</p>
+              <p>Accès limité au catalogue</p>
+              <p>Qualité HD</p>
+              <p>1 écran</p>
+              <button type="button" class="btn btn-secondary">
+                Je m'abonne
+              </button>
+            </div>
+            <div class="col col7">
+              <h3>Standard</h3>
+              <p>Catalogue étendu, Full HD, 2 écrans simultanés</p>
+              <p>€12.99 / Mois</p>
+              <p>Catalogue étendu</p>
+              <p>Full HD</p>
+              <p>2 écrans simultanés</p>
+              <button type="button" class="btn btn-secondary">
+                Je m'abonne
+              </button>
+            </div>
+            <div class="col col7">
+              <h3>Premium</h3>
+              <p>Catalogue complet, 4K, 4 écrans simultanés.</p>
+
+              <p>€19.99 / Mois</p>
+              <p>Catalogue complet</p>
+              <p>4K</p>
+              <p>4 écrans simultanés</p>
+              <button type="button" class="btn btn-secondary">
+                Je m'abonne
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-----------------------------------fin abonnement----------------------->
+        <!-----------------------------------autre film-------------------------------->
+        <h3 id="genre">Autre Genre</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col abo">
+              <h3>Action</h3>
+              <p>
+                Découvrez les meilleurs films d'action avec des cascades
+                spectaculaires, des combats intenses et des scénarios palpitants
+              </p>
+              <button type="button" class="btn btn-secondary btn-lg btnj">
+                Explorer
+              </button>
+            </div>
+            <div class="col abo">
+              <h3>Science-Fiction</h3>
+              <p>
+                Explorez l'univers captivant de la science-fiction : mondes
+                futuristes, technologies avancées et aventures interstellaires.
+              </p>
+              <button type="button" class="btn btn-secondary btn-lg btnj">
+                Explorer
+              </button>
+            </div>
+            <div class="col abo">
+              <h3>Comédie</h3>
+              <p>
+                Plongez dans l'univers de la comédie avec des films hilarants et
+                des scènes mémorables. Des situations loufoques, des personnages
+                attachants et des dialogues
+              </p>
+              <button type="button" class="btn btn-secondary btn-lg">
+                Explorer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col abo abo2">
+            <h3>Dramatique</h3>
+            <p>
+              Découvrez des films dramatiques intenses, où émotions profondes et
+              récits captivants s'entrelacent. Plongez dans des histoires
+              bouleversantes, des personnages marquants et des moments qui
+              restent gravés longtemps après le générique.
+            </p>
+            <button type="button" class="btn btn-secondary btn-lg btnl">
+              Explorer
+            </button>
+          </div>
+          <div class="col abo abo2">
+            <h3>Horreur</h3>
+            <p>
+              Entrez dans le monde terrifiant des films d'horreur : frissons
+              garantis, créatures inquiétantes et suspense insoutenable.
+              Explorez des classiques glaçants et les dernières nouveautés pour
+              une expérience à faire trembler même les plus courageux.
+            </p>
+            <button type="button" class="btn btn-secondary btn-lg btnl">
+              Explorer
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------------section spécial--------------------------->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="livre" src="img/yasmina.jpg" alt="" />
+            <p>
+              Le roman explore les thèmes de l'identité, de la famille, de
+              l'amour et des bouleversements politiques en Algérie, notamment
+              les prémices de la guerre d'indépendance. À travers le destin de
+              Younes, Yasmina Khadra évoque le choc des cultures, la quête de
+              soi et les choix difficiles dans un pays en pleine mutation.
+              L'œuvre se concentre également sur l'histoire d'une Algérie
+              déchirée entre l'héritage colonial et l'aspiration à
+              l'indépendance.
+            </p>
+          </div>
+          <div class="col">
+            <img class="livre" src="img/borderline.jpg" alt="" />
+            <p>
+              L'auteur, Kazimierz M. Janczuk, parvient à décrire avec
+              sensibilité et réalisme les défis quotidiens rencontrés par une
+              personne atteinte de ce trouble. À travers cette exploration de
+              l'esprit humain, Borderline offre une En fin de compte, le roman
+              est une tentative de comprendre la complexité de l'âme humaine et
+              la façon dont les individus luttent pour se définir, se guérir et
+              se reconnecter avec eux-mêmes et avec les autres, tout en vivant
+              avec la douleur. psychologique
+            </p>
+          </div>
+          <div class="col">
+            <img class="livre" src="img/hate.jpeg" alt="" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              eius quaerat possimus quidem numquam officia laudantium, sequi
+              tenetur iure debitis dignissimos iusto illo labore alias quas
+              natus quis eum. Quidem!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-------------------------------------Javascript--------------------------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
